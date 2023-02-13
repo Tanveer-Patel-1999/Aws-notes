@@ -1,0 +1,21 @@
+General purpose instance
+========================
+--> General purpose instance provide a " Balance " of Compute, Memory
+	and networking resources (cpu,ram and hardisk) and can be used for a variety of workLoad.
+	
+they are Three series in General purpose instance
+==================================================
+1: A series --> A1 instance (medium and large size )
+2: M series --> M4 ,M5 , M5a ,  M5d , M5ad (large)
+3: T series --> T2 , T3 , T3a --> t2micro (all size available)
+
+Instance available in 4 size
+============================
+1:Nano
+2:Small / micro
+3:Medium
+4:Large
+
+A1 instnace
+===========
+			

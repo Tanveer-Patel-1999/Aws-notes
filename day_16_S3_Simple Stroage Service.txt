@@ -1,0 +1,95 @@
+S3 : Simple Stroage  : 3 copy
+===========================
+1 : S3 is stroage for the internet.[we can access from http and https through]
+2 : S3 is Object Based stroage.
+3 : You can not install Operating system in S3.
+4 : S3 has a distributed data-store architecture where object (data) are
+	"redundantly store in multiple location". [minimum 3 location in same region]
+5 : Data are stored in "Bucket". [It is kind of folder, drive etc]
+6 : A Bucket is flat container of object. [bucket inside the bucket is not present ]
+7 : Maximum capacity of bucket is "0TB to 5TB".
+8 : You can create a Folder in your Bucket through cansol.
+9 : You can not create Nested bucket.[bucket inside the bucket ]
+10: Bucket OwnerShip is non-transferrable.
+11: S3 Bucket is Region specific.
+12: You can have Upto 100 Bucket per account.
+
+S3 Bucket Naming Rules
+======================
+1 : S3 Bucket names (keys) are globally Unique accross the AWS.
+2 : Bucket names can not be change after they are creation.
+3 : If a bucket is deleted ,its name bacome available again to you or other account to use.
+4 : Bucket names atleast '3' and no more than '63' characters.
+5 : Bucket names are part of the URL used to access a bucket.[bucket url in this bucket name is present]
+6 : Bucket name must be series of one or more labels (abc.bucket)
+7 : Bucket name can contain "lower case letter" , "number" and "hypen"
+8 : Bucket name can not contain "upper case letter" 
+9 : Bucket can not start and end with hypen "-"
+10: Bucket name should not be an IP address.(10.20.10.20)
+11: Each lable start with lower case letter or a number.
+12: Bydefault Bucket and its objects are privates only owner can access the bucket.
+
+Bucket name
+============
+--> Bucket name is simply two parts
+	1 : Bucket Region endpoint. : s3-eu-west1.amazoneaws.com
+	2 : bucketname 				: mybucket
+	
+	example: create a S3 bucket with name " mybucket" in "Europe West Region"
+	
+	https://s3-eu-west1.amazoneaws.com/mybucket
+	
+	http --> calling from internet
+	
+deletd a bucket
+================
+1:first u have to empty the bucket
+2:after that  you delete the bucket.
+
+S3 Bucket Sub-resources
+======================
+--> They are Four resources available in S3 Bucket
+	1 : LifeCycle
+	2 : Website
+	3 : Versioning
+	4 : Access Control List.
+
+
+1 : LifeCycle : To decide an object LifeCycle management.
+--------------
+[ S3 ] -- sharing a data after 30 days --> [ S3-IA ] -- sharing a data after 90 days --> [ Glacier ] -- sharing a data after 3650 days --> deleted
+	
+2 : Website : To hold configurtions related to static website hosted in S3 Bucket.
+-----------
+
+
+3 : Versioning : 
+----------------
+--> Keep object version as it changes (Get update)
+--> We can enbale or suspend the Versioning.
+--> we can not disable the Versioning.
+
+imp
+---
+if you enable the version then we can not disable the versioning. you can suspend but not disable the versioning
+
+	50pages -- upadte --> 100page -- upadte --> 150 pages
+	
+4 : Access Control List : 
+-----------------------
+--> we can apply a security to bucket .[ kon acces kr sakta hai or kon nhi ]
+--> we can define Bucket policies in this.
+
+
+S3 Object
+=========
+1 : An object sized stored in a S3 bucket can be [ 0Byte to 5TB ].
+2 : Each object is stored and Retreived  by an unique key [ Id or name ]
+3 : An Object in Aws S3 is Unique identified and addressed through
+	--> Service endpoint
+	--> Bucket name
+	--> Object key [ id or name ]
+	--> Object version
+	
+4 : Object stored in a S3 bucket in a region will never leaves that region unless you specificallay
+	move them to another Region or CRR

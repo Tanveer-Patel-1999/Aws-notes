@@ -1,0 +1,28 @@
+Types VPC
+=========
+they are two types of VPC
+-------------------------
+1: Default VPC
+2: Custom VPC
+
+1: Default VPC
+--------------
+--> when we create an AWS account in AWS region " Default VPC " is created automatically.
+--> Default VPC has CIDR , Security Group , NACL  and "Route table" settings
+--> Default VPC has an "internet gatway (IGW) " by default.
+
+ 2: Custom VPC
+-------------
+--> Custom VPC is VPC on aws Account " owner " created.
+--> Aws user creating the custom VPC can decided "CIDR".
+--> Custom VPC dose not has an "internet gatway (IGW) " by default.
+
+
+how to create an vpc
+=====================
+they are 4 step to create a vpc
+-------------------------------
+1:create a VPC
+2:create a subnet
+3:Internet gateway
+4:Routing table

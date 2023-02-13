@@ -1,0 +1,15 @@
+Compute optimized instances
+===========================
+--> u have less time and do more work that time .
+--> Compute optimized instances are ideal for "compute-bound" application that benefit for high performnace processor.
+
+--> "compute-bound"  --> in one minute u process 1Lack request.
+--> Compute optimized have " C-series".
+--> "C-series" have --> C4 , C5 , C5n instances.
+
+use cases
+=========
+1:Hight performnace Web server
+2:Batch Processing
+3:MMO Gaming
+4:Video Encoding

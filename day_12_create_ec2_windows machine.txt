@@ -1,0 +1,27 @@
+How To Create EC2 windows Machine and validate the accessibilty
+===============================================================
+lab for windows machine / instance / server
+-------------------------------------------
+
+
+how to lunch EC2 instance
+-------------------------
+1:region is most important "region is fixed".
+
+step
+----
+1: search ---> EC2
+2: click EC2 
+3: click Launch instances 
+4: quick start [Already present images are present that is build by Amzon]--> AMI --> amzon machine images
+5: select " Microsoft windows Server 2012 R2 Base"
+
+
+
+
+
+
+
+
+
+==========================

@@ -1,0 +1,39 @@
+EC2 Instances Purchasing Options
+================================
+
+they are 6 way to puchase Ec2 instance
+---------------------------------------
+1: On Demand
+2: Dedicated Instance
+3: Dedicated Host
+4: Spot Instance
+5: Schedule Instance
+6: Reserved Instance
+
+there are 4 way to pay amzon EC2 instance
+-----------------------------------------
+1: On Demand
+2: Reserved Instance
+3: Spot Instance
+4: Dedicated Instance
+
+1: On Demand
+============
+--> On Demand Instance are vitual server at fixed rate per hour
+--> Aws recomanded " On Demand Instance " use short term irregular work load.
+--> They are suitable for used during "testing" and "developing" of application.
+--> Bill is started when we launch (start) your instance untill  it is terminated or stopped.
+
+--> server is windows if user used 1.15 minuete ---> and stop --> that time you pay 2 hours payment	
+--> server is linux/ubunto if user used 1.15 minuete ---> and stop --> that time you pay 1.15 minuete payment only.
+
+
+terminated 
+	--> you return back Ec2 instance to AWS .
+	--> in this situation you not pay [ billing is stopped]
+
+stopped 
+	--> you are shut down your Ec2 instance but not return back to AWS 
+	--> in this situation you not pay the instance bill but you shoud pay " EBS storage" that is attached with instance  
+	--> EBS : Elastic Block store
+	

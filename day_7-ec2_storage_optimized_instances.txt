@@ -1,0 +1,16 @@
+Storage Optimized Instances  : "sequential READ and WRITE"
+============================ 
+--> sequential --> one after another
+--> It is used for "sequential READ and WRITE" access
+--> Storage Optimized Instances are design  for work loads that require high, "sequential READ and WRITE" access
+	to be very large data set on local storage.
+	example
+	=======
+--> youtube --> user can upload the data , share the data and read the data
+--> music and video web site
+
+they are three types of Storage Optimized Instances
+---------------------------------------------------
+1: D - series --> D2 instance --> menimum capacity
+2: H - series --> H1 instance --> medium capacity
+3: I - series --> I3 and I3en instances --> large capacity

@@ -1,0 +1,14 @@
+Accelerated Computing Instances : AI , ML , DL
+===============================
+--> It is used perform "Live streaming " is fast way
+--> It is used perform "3D Gamming"
+--> It is used in
+			AI: Areticial Inteligence
+			ML: Machine learning
+			DL: Deep learning
+
+they are 3 types of series Accelerated Computing Instances
+----------------------------------------------------------
+1: F - series  --> F1 instance 		  --> middle capacity
+2: P - series  --> P2 and P3 instance --> minimum capacity
+3: G - series  --> G2 and G3 instance --> maximum capacity

@@ -1,0 +1,80 @@
+AWS-Solution Architect
+======================
+
+AWS
+===
+--> Amazone web service
+--> amzon web server and it is cloud provider.(everything on internet)
+--> Aws prvided machine (cpu,ram and hardisk) 
+--> aws provide (stroage (keeping a data ) and compute (to process inculde cpu and ram))
+
+Cloud ---> sharing a resoureces
+
+Q:define Cloud?
+---------------
+
+ans --> Cloud computing is the " on-demand delivery " of compute power, database, storage, applications,
+and other IT-resources through a " cloud service platform " via the "Internet "
+with "pay-as-you-go"
+
+cloud service platform --> aws,azur,google cloud,alibaba
+----------------------
+
+pay-as-you-go --> how much you used this much you pay
+-------------
+
+Q:why we used cloud?
+-------------------
+ans--> cloud manage Capex and Opex.
+
+to open new samll company
+------------------------
+CapEx -->  capital expenditures--> when you open a company you required (4 server,firewall,networking you do not close)
+OpEx --> operating expenses --> 16 employee, 24*7 eletricity 
+
+example
+-------
+flipkart and amzon --> per day trafic 50lack ---> 10 server
+on cell (3 days)  ---> per day trafic 50cr --> 50 server --> u have 10 server u add 40 server extra to hnadle the trafic to handle
+--> aws give you server on rent
+
+Top player in cloud
+===================
+1:Amazon web server (AWS)
+2:Microsoft Azure
+3:Google cloud platform (GCP)
+4:Alibaba Cloud --> chines company
+5:Orcale
+6:IBM
+
+
+characterstic of cloud
+======================
+1:on demand self service --> where u want and when u want the network you can access --> when u create a gamil account that only place u can access , you  can access from any where across the world
+
+2:Broad network access --> we access from any where via internet
+
+3:Scalability --> flexibility on server --> (exm--> black friday manage the trafic)
+
+4:Resource Pooling --> It is place where all the resources are placed used it and return back when your work complete to the pool
+
+5:Measured services --> how many user can visited to the server per day (male,female, child etc)
+
+--> AWS launch in 2006
+--> 2010 it move to amzon.com
+--> 2013 aws started certification
+
+
+AWS certification
+=================
+1:AWS solution Architecutre
+	-->Associate
+	-->Profesional
+
+2:AWS Devops--> devloper + opereation
+	-->Associate
+	-->Profesional
+
+3:AWS sysops --> system admin + operation
+	-->Associate
+	-->Profesional

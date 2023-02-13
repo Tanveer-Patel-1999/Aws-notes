@@ -1,0 +1,12 @@
+Memory Optimized instance ---> work on databases
+=========================
+--> Memory Optimized instance are design to deliver "fast performance " for workLoad that process
+	large data set in memory.
+--> work on large data bases u require huge memory
+
+
+Memory Optimized instance have 3 series
+=======================================
+1: R-series : --> R4 , R5 , R5a , R5d and R5ad instance
+2: X-series : --> X1, X1e --> X series provide maximum RAM
+3: Z-series : --> Z1d

@@ -1,0 +1,145 @@
+Services in cloud deployment module
+===================================
+
+Service module Or Services in cloud
+-----------------------------------
+--> cloud provides 3 types of services
+
+1:IAAS --> Infrastructure as a servcie
+2:PAAS --> Platform as a servcie
+3:SAAS --> Software as a servcie
+
+layer module
+------------
+				Application
+				
+				data
+				
+				Runtime
+				
+				Middleware
+				
+				OS
+				
+				Vitulization
+				
+				Server
+				
+				Storage
+				
+				Network
+				
+
+1:IAAS --> Infrastructure as a servcie --> haedware is part of infra
+--> Network and Storage and Server access from cloud is called as infra.
+--> any compnay can access "Network" to "OS" is called as an IAAS
+				OS
+				
+				Vitulization
+				
+				Server
+				
+				Storage
+				
+				Network
+				
+				
+2:PAAS --> Platform as a servcie
+--> middleware and runtime is platform 
+--> it is combimation of (IAAS + Runtime and middleware )
+--> any compnay can access "Network" to "data" is called as an PAAS
+ 
+
+				data
+				
+				Runtime
+				
+				Middleware
+				
+				OS
+				
+				Vitulization
+				
+				Server
+				
+				Storage
+				
+				Network
+				
+				
+3:SAAS --> Software as a servcie
+--> it is combimation of (IAAS + PAAS + application )
+--> any compnay can access "Network" to "application" is called as an PAAS
+
+				Application
+				
+				data
+				
+				Runtime
+				
+				Middleware
+				
+				OS
+				
+				Vitulization
+				
+				Server
+				
+				Storage
+				
+				Network
+				
+				
+				
+Deploymeny module of cloud
+===========================
+1: public Cloud
+2: private Cloud
+3: Hybrid Cloud
+				
+1: public Cloud
+===============
+--> awz ,azure, google are public cloud platform
+--> any one create an account used there cloud.
+--> It give every one to opturnites to make an "infra", run "services" on cloud.
+
+2: private Cloud
+================
+--> it is called as an "interprise cloud".
+--> A company can create an account for there used and these account can be used by company other branches.
+--> It give "one-to-one" connectivity 
+exmp
+====
+	Dell company --> company branches [ Mumbai,pune,banglore,hydrabad ]
+	
+
+3: Hybrid Cloud
+===============
+
+--> Azuer give best used of Hybrid Cloud
+--> using this we can access "public and private cloud".
+
+
+Vitulization
+============
+		
+				Vitulization
+				
+				Server
+				
+				Storage
+				
+				Network
+				
+--> Network and Storage and Server you have to vitulize first
+--> we can vitulizer using "hypervisor"
+
+note
+====
+	--> first u have " infra " to make infra as "vitulize" then u make cloud.
+	--> first step to make a cloud is vitulization.
+	--> after making a vitulize next step u make a cloud.
+	
+
+--> AWS hypervisor name  ---> " citrix"
+--> microsoft hybervisor name --> " hyper-v".

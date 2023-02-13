@@ -1,0 +1,35 @@
+Types of AWS Storage
+====================
+
+they are 5 types of storage in AWS
+---------------------------------
+
+1 : S3 : Simple Stroage Service
+-------------------------------
+	--> S3 is a "object level strogae" [file,database,video,audio,movies,pdf,wordfile]
+	--> It can store any types of file
+	--> S3 can access from every where
+	--> It is  used to store "unstructural" data .[4 video file, 4 text file, 2 audio etc]
+	
+2 : EFS : Elastic File System
+-----------------------------
+	--> EFS is common storage [ update file, patch file ] are share to different region.
+	
+3: EBS : Elastic Block Storage
+------------------------------
+	--> we can access EBS through EC2 instance
+	--> EBS is Block level Storage
+	
+4: Glacier
+---------
+	--> S3 Glacier [ now it is part of S3 ]
+	--> cost is very cheep
+	
+5: Snowball
+-----------
+	--> It is portable stroage
+	--> It is used for data magretion
+
+note
+----	
+--> AWS has only 4 stroage

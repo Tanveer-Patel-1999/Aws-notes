@@ -1,0 +1,39 @@
+Differnce between Block and Object Storage
+===========================================
+
+Block level Storage : EBS : divides the data into blocks and store.
+-------------------
+1:Block level stroage is suitable for 
+	"transectional databases" , "Structural databases ", random read/write load
+2:"Block stroage divides the data to be stored in 'evenly sized blocks[data chunks ] for instance,
+
+3: block stroage divides the data into "same sized of blocks" and stored into EBS.
+4: "Data blocks" stored in "Block Storage" would not contain Metadata.
+5: same sized of blocked (  "Data blocks" ) we have created have only indexing it does not have metadat.
+6: Block Storage only keeps the address(indexing) of the Blocks it does not care
+   what is present in the Block.
+7: we can retrieve the Block using "index position"
+
+examplec -> 5mb : 5 Blocks 
+							1 Block : 1MB
+							2 Block : 1MB
+							3 Block : 1MB
+							4 Block : 1MB
+							5 Block : 1MB
+							
+--> 5 blocks have same size of data.
+
+Object level Storage : S3
+--------------------
+1: object stroage store the file as it and does not divides them.
+2: In Object Storage , on object is
+	--> they are three types of Object
+	1 : The file / data itself
+	2 : Its metadat
+	3 : Object Global unique ID.
+	
+--> The Object Global unique ID is a unique idetifier for the object.(can be the object name itself)
+--> object name is unique because we can access from globally through internet.
+--> we can access http and https through
+
+example: DropBox, AWS S3 , facebook.

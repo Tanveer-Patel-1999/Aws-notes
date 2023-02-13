@@ -1,0 +1,83 @@
+EC2 Access ,Status check and EC2 Meta data
+==========================================
+EC2 Acess
+---------
+1: To access an instance you need a "key" and "key pair Name".[kay should be download ]
+2: you can download the "Privte key " only once.
+3: public key is saved by AWS to match it to the kay pair Name.
+4: without key pair you can not aceess EC2 instances via " RDP or SSH (linux).
+5: There is 20 EC2 instance soft limit per region 
+6: You can submit a request to AWS to increase the EC2 instance limit.
+
+
+EC2 Status check
+----------------
+--> It tell you your EC2 instance is in which state [Running , Panding , Terminate , stop ]
+--> By default AWS EC2 service performs " Automated Status checks " every one minute.
+--> Automated Status checks beacuse to verify any hardware and software issue.
+--> Status check is inbuilt in AWS EC2 instance.
+--> Ec2 Instancve send its " metric data " to "AWS cloudWatch" evry 5 minute.
+	[ cloudWatch generally used for monitoring : It is by default present it monitor every 5 minute ]
+--> If you monitoring every minute you Ec2 instance u have to pay for that.
+--> If you stop Ec2 instance you dont pay for that you only pay for EBS storage.
+
+they are two types of storage in root voulme
+============================================
+
+root voulme: where your OS placed
+---------------------------------
+
+1: EBS Backed EC2 Instance : root valume is EBS
+2: Instance store Back EC2 : root valume Instance store Back
+
+
+when you stop an EBS Backed Ec2 Instance
+========================================
+--> Instance is shutdown
+--> state chnage from Running to Stop.
+--> EBS voulme remain attached to the EC2 instance.
+--> Any data catched in "RAM" or "instance store volume" is gone (remove)
+--> Instance retain its private IPV4 or IPV6 address.
+--> Instance release its public IPV4 address back to aws pool.
+--> Instance retain its Elastic IP address.[Elastic IP : IP can not be changed it is fixed]
+
+
+EC2 Instance Termination
+========================
+--> when you terminate a running instance the instance state changes as follow.
+	Running --> Shutting Down --> Terminate
+--> during the shutting down and terminate states you do not incur charges.
+--> By default EBS Root devices voulme are deleted automatically when Ec2 instance are terminate.
+--> Enable EC2 termination protection against accidental Termination.
+ 
+ 
+EC2 Meta data
+============
+1: The information about Ec2 instance and Ec2 instance related information is called As EC2 Meta data.
+exmp:
+	IPV4 address, IPV6 address, DNS hostname, instance id, instance type, local hostname, public keys, security group.
+
+2: Metadata can be only viewd from with in the instance. i.e you have to login to the instance. 
+3: Metadata is not protection by encryption [ anyone that has aceess to the instance can view this data ] .
+	GET http://169.254.169.254/latest/Metadata --> to check your metadata of your instance
+	
+
+Elastic Block Storage --> NAS
+=====================
+--> it is a NAS (network atached stroage) 
+--> It is slow 
+1: If your are using EBS as root volume then it is called as "  EBS Backed Instance".
+2: we can replicated from one availibity zone to another availibity zone.[best used ]
+3: EBS valume are deleted automatically when you terminate the instance.
+
+Instance stroage --> DAS
+================
+--> it is a DAS (Direct atached stroage) 
+--> It is faster as compare to EBS
+-->  Physically attached to the host server.
+
+--> data not lost when OS is rebort
+
+--> data los when
+	1: Underlying drive fails
+	2:Instance is stop or terminate

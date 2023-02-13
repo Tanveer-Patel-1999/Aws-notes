@@ -1,0 +1,41 @@
+Virtual Private cloud : VPC
+===========================
+example virtual storage
+----------------------
+ u have google account and u also have google stroage this  storage is vitual storage.[like an internal memory].
+
+ VPC
+ ===
+ --> private cloud is more secure.
+ --> A virtula Private Cloud is a "virtual Network" or "data center" inside AWS for on client.
+ --> Max "5 VPC" can be created in one region.
+ --> In "1 VPC" we craete 200 subnets.
+ --> In one region we create 100 subnets.
+ --> we can 200 routing table.
+ --> we can allocate max 5 Elastic IP.
+ --> Onces we created VPC 
+		1:DHCP : Dynamic host configuration protocall
+		2:NACL : Network access control list
+		3:security group are automatically created.
+--> VPC can create on region not a availibilty zone.
+--> Subnet can create on availibilty zone not a subnet.
+--> 1 VPC can not extend on two differnt region.
+--> 1 Subnet can not extend on two availibilty zone.
+
+--> onces the VPC is created you can not change the "CIDR" block range.
+--> you can not chnage the size of existing "CIDR" if you want to change the size then you create a new VPC.
+
+
+Component of VPC
+================
+1:CIDR and IP address subnet
+2:Implied Router and Routing table
+3:Internate Gateway
+4:Security Group
+5:NetWork ACL [ Access control list ]
+6:Virtual private Gateway
+7:Peering connection
+8:Elastic IP
+	
+ 
+ 

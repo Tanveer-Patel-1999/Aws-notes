@@ -1,0 +1,55 @@
+High Memory instances 
+=====================
+--> High Memory instances  is lilke as super computer
+--> If u want High Memory instances then u required " dedicated Host".
+--> "Dedicated user " can be used High Memory instances 
+-->  High Memory instances can be puchase start for "3 year".
+--> It provide "12TB RAM"
+
+important
+=========
+--> there is no used of "hypervisor".
+--> It is directly install on hardware
+--> Os is directly install
+
+bare metal instances
+====================
+ --> directly install on hardware 
+ --> bare metal --> is start with " .metal".
+ --> laptop is bare metal
+ 
+ 
+ High Memory instances have only series
+ ======================================
+ 1: U - series : U6 , U9 and U12 instances
+ 
+ 
+ Previous Generation Intances
+ ============================
+ series
+		1: T1
+		2: M1
+		3: C1
+		4: CC2
+		5: M2
+		6: CR1
+		7: CG1
+		8: I2
+		9: HS1
+	   10: M3
+	   11: C3
+	   12: R3
+	   
+	   
+-->  Previous Generation Intances not deleted  it is available.
+-->  Previous Generation Intances we can purchase
+
+Q: when Ec2 bill is start and when it is end ? (how I pay)
+Ans : when we purchase an instance and start(boot) an instance till you are not stop (terminate) the instance the billing is started.
+
+Q: pay per second option available for this user?
+ans: linux and ubuntu user.
+
+Q: windows user can pay bill per hours or per second?
+ans: per hourse
+ 

@@ -1,0 +1,39 @@
+
+EC2 : Elastic compute cloud
+===  =======================
+server = virtula machine = EC2 
+
+"instance = virtula machine "
+
+
+--> EC2 : Elastic compute cloud
+--> Amzon provide scalable computing capacity in the aws cloud. (cpu,ram,hardisk)
+--> Amzon EC2 enbale you to " scale up or scale down " the instance.
+--> Amzon EC2 having two stroage option.
+	1:EBS --> Elastic block store
+	2:instance store --> it is fast as compare to EBS
+--> PreConfigured template are available known as "Machin Image".[template = machine = server ]
+
+Note importnat
+--------------
+	Q  --> there is limit of EC2 instance in region?
+	Ans--> By default when you create an EC2 account with amazon , your account is limited to a " maximum of 
+		20 instance per EC2 Region " with two defult High I/O instances.
+		
+Types Of EC2 instance
+=====================
+they are total 7 types
+	
+	1:General Purpose instances ---> Balanced Memory and CPU
+	
+	2:Compute Optimized instances --> More CPU than RAM
+	
+	3:Memory Optimized instances  --> More RAM
+	
+	4:Storage Optimized instances --> low latency stroage (DB instances)
+	
+	5:GPU / accerlerated computing instances --> Graphics optimzed (gaming purpose )
+	
+	6:High memory instances --> High RAM it is work on "Nitro system"--> [hypervisor]
+	
+	7:Previous Generation instance
